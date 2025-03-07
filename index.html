@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page Brayan</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- <h1>my Logo</h1> -->
+        <img src="Img/logo.png" alt="Logo" class="logo">
+        
+        <nav>
+            <ul>
+            <a href="#home">Home</a> 
+            <a href="#Student">About</a>
+            <a href="#Contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <main>
+        <section id="home">
+            <section class="blocks">
+                <div class="block">
+                    <img src="img/img2.png" alt="ImagenServicioWeb">
+                    <h2>Article Title</h2>
+                    <p>Article content goes here. this is a simple page article content</p>
+                </div>
+                <br>
+                <div class="block">
+                    <img src="Img\img1.png" alt="ImagenServicioControldeacceso">
+                    <h2>Article Title</h2>
+                    <p>Article content goes here. this is a simple page article content</p>
+                </div>
+            </section>
+        
+        </section>
+        <br>
+
+        <section id="Contact">
+            <form action="/" method="post">
+                <h1>Contact Form</h1>
+                <fieldset>
+                    <legend>personal information:</legend>
+                    <label for="Name">Name: 
+                        <input type="text" size="40" id="name" placeholder="type your name" required>
+                    </label>
+                    <div>
+                        <label for="Email">Email: 
+                            <input type="email" size="40" id="name" placeholder="type your mail" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="type your message here"> </textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+
+                </fieldset>
+
+            </form>
+        </section>
+        <br>
+
+        <section id="Student">
+            <h2>Student Score</h2>
+            <table border="1" height="100%" style="border-collapse: collapse;">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>Total</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>pedro</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>170</td>
+                  </tr>
+                  <tr>
+                    <td>jose</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>180</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" >Total</td>
+                    <td>Cell 2</td>
+                    <td >360</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </section>
+        
+    </main>
+
+    <footer>
+            Copyright &copy; 2024 - Primer parcial Web
+            <P>Contact us at: info@example.com</P>
+            <a href="mailto:gabriel@gmail.com">Enviame un correo</a>
+    </footer>
+</body>
+</html>
